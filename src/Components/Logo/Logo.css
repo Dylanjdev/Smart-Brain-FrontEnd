@@ -1,0 +1,16 @@
+.shadow-2 {
+    background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+}
+
+.tilt {
+  transition: transform 0.2s ease;
+}
+
+.logo-inner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}

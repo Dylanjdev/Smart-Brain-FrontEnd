@@ -1,0 +1,20 @@
+.App {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.App h2 {
+  font-family: 'Arial', sans-serif;
+  color: #444;
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

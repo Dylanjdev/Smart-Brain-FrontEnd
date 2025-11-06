@@ -1,0 +1,18 @@
+.bounding-box {
+  position: absolute;
+  border: 2px solid #00f6ff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 246, 255, 0.8), 0 0 30px rgba(0, 246, 255, 0.5);
+  pointer-events: none;
+  animation: glowPulse 1.5s infinite alternate;
+}
+
+@keyframes glowPulse {
+  from {
+    box-shadow: 0 0 8px rgba(0, 246, 255, 0.5), 0 0 15px rgba(0, 246, 255, 0.3);
+  }
+  to {
+    box-shadow: 0 0 20px rgba(0, 246, 255, 1), 0 0 40px rgba(0, 246, 255, 0.8);
+  }
+}
+
