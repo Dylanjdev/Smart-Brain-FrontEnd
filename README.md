@@ -1,7 +1,7 @@
 🧠 Smart Brain — Face Detection App
 
 Live Demo:
-👉 Smart Brain Frontend (GitHub Pages)
+👉 https://dylanjdev.github.io/Smart-Brain-FrontEnd/
 
 Smart Brain is a full-stack face detection web app that allows users to register, sign in, and detect faces in images using AI.
 Each time a user submits an image, their entry count increases — all data is stored securely in a PostgreSQL database.
