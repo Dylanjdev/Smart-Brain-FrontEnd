@@ -41,7 +41,7 @@ class App extends Component {
   async componentDidMount() {
     try {
       // Load face-api.js models from /public/models
-      await faceapi.nets.tinyFaceDetector.loadFromUri('/models');
+      await faceapi.nets.tinyFaceDetector.loadFromUri(`${import.meta.env.BASE_URL}models`);
       this.setState({ modelsLoaded: true });
       console.log('✅ Face API models loaded');
     } catch (err) {
