@@ -116,7 +116,7 @@ class App extends Component {
       // Optional: update user entries
       if (this.state.user.id) {
         try {
-          const res = await fetch('http://localhost:3000/image', {
+          const res = await fetch(`${import.meta.env.VITE_API_URL}/image`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ id: this.state.user.id }),
